@@ -23,11 +23,9 @@ public class OperatorsLesson {
         //0  1   0   0  0   0   1   0 = 2
         System.out.println("5>>>3="+(5>>>3));
         System.out.println(5/5.0); //5-> 5.0 -> 5.0/5.0
-        int g = (int)3.0;
         short x = 10;
         short y = 5;
-        short z = (short)(x*y);
-
+        
         long x2 =10;
         int y2 = 5;
         y2 *= x2; // y2 =(type y2)(y2*x2);
