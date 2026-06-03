@@ -1,1 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        // Create the 6 primitives (excluding long and double) with different values
+        char character = 'H';
+        int integer = 3;
+        short shortNum = 1;
+        byte byteNum = 0;
+        float floatNum = 2.0f;
+        boolean booleanVal = true;
 
+        // Concatenate them with string literals to match the required output
+        String output = "" + character + integer + shortNum + "1" + byteNum + " w" + byteNum + "rld " + floatNum + " " + booleanVal;
+        
+        // Print to the screen
+        System.out.println(output);
+    }
+}
